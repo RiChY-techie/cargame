@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Game</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #81ecec 0%, #fab1a0 100%);
+            font-family: 'Segoe UI', Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            margin: 3em auto;
+            padding: 2em;
+            background: rgba(255,255,255,0.93);
+            border-radius: 20px;
+            box-shadow: 0 6px 30px rgba(0,0,0,0.22);
+            width: 420px;
+        }
+        h1 {
+            color: #0984e3;
+            margin-bottom: 1.0em;
+        }
+        .play-btn {
+            background: #00b894;
+            padding: 15px 32px;
+            border: none;
+            border-radius: 6px;
+            color: white;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background 0.3s;
+            margin-top: 2em;
+        }
+        .play-btn:hover {
+            background: #0984e3;
+        }
+        .desc {
+            color: #636e72;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Car Racing Game!</h1>
+        <div class="desc">
+            Race, drift, and navigate hills.<br>
+            Use WASD keys to control your car.
+        </div>
+        <button class="play-btn" onclick="alert('Game launching soon!')">Play Now</button>
+    </div>
+</body>
+</html>
